@@ -1,0 +1,35 @@
+.strength-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.strength-inside-container{
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+.strength-container h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+}
+.strength-content{
+  padding: 1.5rem;
+    padding-top: 0;
+}
+.strength-message {
+  color: #666;
+  margin-left: 5px;
+  line-height: 1.5;
+
+}
+
+.strength-quote {
+  font-style: italic;
+  color: #2196F3;
+  margin: 0;
+  margin-top: 10px;
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+.opportunity-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.opportunity-container h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+}
+
+.opportunity-charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1.5rem;
+    padding-top: 0;
+}
+.chart-legend-opportunity{
+  display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 65px;
+}
+.legend-item-opportunity{
+  font-size: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+.opportunity-chart {
+  height: 12rem;
+  position: relative;
+}
+
+/* .opportunity-chart h3 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+} */

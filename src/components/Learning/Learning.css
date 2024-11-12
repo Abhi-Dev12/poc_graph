@@ -1,0 +1,57 @@
+.learning-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.learning-content{
+  padding: 1.5rem;
+  padding-top: 0;
+}
+.learning-container h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+}
+
+.learning-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.learning-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resource-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.resource-id {
+  color: #666;
+}
+
+.resource-title {
+  color: #1a1a1a;
+}
+
+.resource-link {
+  color: #2196F3;
+}
+
+.learning-footer {
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.learning-footer span {
+  color: #2196F3;
+}
